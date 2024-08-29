@@ -24,9 +24,11 @@ Abre Postman.
 -La colección aparecerá en la barra lateral izquierda, lista para ser utilizada.
 Debería lucir algo como:
 
-<img src="[ruta/de/tu-imagen.png](https://github.com/user-attachments/assets/374c40d9-6ba2-41e3-9d30-ef30ba3cc8e4)" alt="Coleccion de postman" width="auto" height="100px">
+<img src="![image](https://github.com/user-attachments/assets/12dfab98-2335-4c86-b347-09c794fa4de0)
+" alt="Coleccion de postman" width="auto" height="100px">
 
 
+![image](https://github.com/user-attachments/assets/37093004-9af6-40f8-b262-f57041243a2f)
 
 ### Abrir el repositorio en Visual Studio Code
 _Desde Git Bash puedes ejecutar:_
