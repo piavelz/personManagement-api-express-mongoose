@@ -50,4 +50,4 @@ npm run start
 ```
 
 
-_ Ahora la API está lista para recibir peticiones desde Postman _😁👍🏻
+Ahora la API está lista para recibir peticiones desde Postman 😁👍🏻
