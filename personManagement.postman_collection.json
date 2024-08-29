@@ -1,0 +1,239 @@
+{
+	"info": {
+		"_postman_id": "0bb6daf7-2ee1-45c3-8635-6536dc95a55a",
+		"name": "personManagement",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37392440"
+	},
+	"item": [
+		{
+			"name": "obtener a todas las personas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/persons",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"persons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener una persona por id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/persons/66cfd8afd4961dc77f335665",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"persons",
+						"66cfd8afd4961dc77f335665"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ingresar una nueva persona",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Juanin\",\r\n    \"lastName\":\"Juan harry\",\r\n    \"works\":[\r\n        {\r\n        \"company\":\"31 minutos\",\r\n        \"initContract\":\"08-08-1999\",\r\n        \"finishContract\":\"01-01-2010\",\r\n        \"position\":\"coordinador\"\r\n        }],\r\n    \"nationality\":\"chilean\",\r\n    \"year\":\"1990\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/persons",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"persons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "editar datos de una persona existente",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Junain\",\r\n    \"year\":\"1980\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/persons/66cfdb4750589b42542662e0",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"persons",
+						"66cfdb4750589b42542662e0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/api/persons/66ccfeb376a0b1d843623287",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/persons/66cfdb0fd4961dc77f335679",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"persons",
+						"66cfdb0fd4961dc77f335679"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar trabajos de una persona",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/persons/66cfdb4750589b42542662e0/works",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"persons",
+						"66cfdb4750589b42542662e0",
+						"works"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "agregar nuevo trabajo a una persona",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\r\n    \"company\":\"31 minutos \",\r\n    \"initContract\":\"08-08-2000\",\r\n    \"finishContract\":\"10-10-2010\",\r\n    \"position\":\"productor\"\r\n }\r\n    \r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/persons/66cfdb4750589b42542662e0/works",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"persons",
+						"66cfdb4750589b42542662e0",
+						"works"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar un trabajo especifico",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"company\": \"31 minutos\",\r\n    \"initContract\": \"1999-08-08T04:00:00.000Z\",\r\n    \"finishContract\": \"2010-01-01T03:00:00.000Z\",\r\n    \"position\": \"estrella\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/persons/66cfdb4750589b42542662e0/works/66cfdb4750589b42542662e1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"persons",
+						"66cfdb4750589b42542662e0",
+						"works",
+						"66cfdb4750589b42542662e1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar un trabajo",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/persons/66cfdb4750589b42542662e0/works/66cfe10b090b2e1473687253",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"persons",
+						"66cfdb4750589b42542662e0",
+						"works",
+						"66cfe10b090b2e1473687253"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
