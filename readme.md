@@ -19,7 +19,7 @@ _Luego de clonar el repositorio, extrae el archivo 'personManagement.postman_col
 
 Abre Postman.
 1. En la parte superior izquierda, haz clic en el botón **Import**.
-2. En la ventana emergente, haz clic en **Select Files** y selecciona el archivo: "personManagement.postman_collection.json".
+2. En la ventana emergente, haz clic en **Select Files** y selecciona el archivo: **"personManagement.postman_collection.json"**.
 3. Una vez seleccionado el archivo, haz clic en **Import**.
 4. La colección aparecerá en la barra lateral izquierda, lista para ser utilizada.
 
