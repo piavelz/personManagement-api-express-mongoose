@@ -15,7 +15,7 @@ rm -rf .git
 ```
 ### Importar colección a Postman
 
-_Luego de clonar el repositorio, extrae el archivo personaManagement.cartero_coleccion.json en una carpeta fuera del proyecto para importarlo en Postman:_
+_Luego de clonar el repositorio, extrae el archivo 'personManagement.postman_collection.json' en una carpeta fuera del proyecto para importarlo en Postman:_
 
 Abre Postman.
 -En la parte superior izquierda, haz clic en el botón Import.
