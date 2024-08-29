@@ -13,7 +13,7 @@ git clone https://github.com/piavelz/personManagement-api-express-mongoose.git
 cd personManagement-api-express-mongoose
 rm -rf .git
 ```
-###Importar colección a Postman
+### Importar colección a Postman
 
 _Luego de clonar el repositorio, extrae el archivo personaManagement.cartero_coleccion.json en una carpeta fuera del proyecto para importarlo en Postman:_
 
@@ -28,7 +28,7 @@ Debería lucir algo como:
 
 
 
-###Abrir el repositorio en Visual Studio Code
+### Abrir el repositorio en Visual Studio Code
 _Desde Git Bash puedes ejecutar:_
 ```bash
 code .
